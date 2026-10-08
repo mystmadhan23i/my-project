@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-node-test-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app with Jest test for Jenkins practice",
+  "main": "src/calculator.js",
+  "scripts": {
+    "start": "node src/calculator.js",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
